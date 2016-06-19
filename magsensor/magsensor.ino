@@ -81,6 +81,7 @@ void loop(void)
   Serial.print(event.magnetic.z); Serial.print(",");
   Serial.print(millis()); Serial.print(",");
   Serial.println("");
+  Serial.flush();
   
-  delay(100);
+  //delay(100);
 }
